@@ -1,3 +1,5 @@
+//Lab 3: Component-Template-CSS
+
 import { Component, Input } from '@angular/core';
 
 @Component ({

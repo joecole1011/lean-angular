@@ -1,3 +1,4 @@
+// Lab 3: Component-Template-CSS
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 

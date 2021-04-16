@@ -1,5 +1,11 @@
+/* Lab 3: Component-Template-CSS */
 .text{
     text-align: center;
     text-shadow: 2px 2px 5px greenyellow;
     border-style: outset;
+}
+.textCom{
+    text-align: center;
+    font-size: 30px;
+    color: deeppink;
 }
