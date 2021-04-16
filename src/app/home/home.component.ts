@@ -2,7 +2,8 @@ import { Component, Input } from '@angular/core' ;
     
     @Component ( {
         selector : 'app-home',
-        templateUrl : './home.component.html' 
+        templateUrl : './home.component.html',
+        styleUrls: ['./home.component.css']
         
     } )
 
@@ -12,9 +13,10 @@ import { Component, Input } from '@angular/core' ;
         title!: string; 
         //title = '';
         
-        constructor() {}
         count = 0;
         countNumber(){
             this.count =this.count + 1
         }
+
+        constructor() {}
     }
