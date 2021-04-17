@@ -1,5 +1,4 @@
 import { Component  } from '@angular/core';
-
 @Component({
   selector: 'app-ngforandngif',
   templateUrl: './ngforandngif.component.html',
@@ -10,6 +9,5 @@ export class NgforandngifComponent  {
   items = [1, 2, 3, 4, 5];
 
   constructor() { }
-
  
 }
