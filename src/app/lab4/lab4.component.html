@@ -1,0 +1,19 @@
+
+{{title}}
+<ul>
+    <p>
+        <li *ngFor="let item of items">
+        <span *ngIf="item % 2 === 0">
+            <div class = "number-even">
+                {{ item }}
+            </div>
+        </span>
+            <b *ngIf="item % 2 !== 0">
+            <div class = "number-odd">
+                    {{ item }}
+            </div>
+            </b>
+        </li>
+    </p>
+</ul>
+
