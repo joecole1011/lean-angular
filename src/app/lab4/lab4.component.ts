@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class Lab4Component  {
 
-  title: string ='Lab 4 ทดสอบ Directives';
+  title ='Lab 4 ทดสอบ Directives';
   items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   constructor() { }
