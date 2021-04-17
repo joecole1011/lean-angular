@@ -10,7 +10,7 @@ import { Component, Input } from '@angular/core' ;
     export class HomeComponent {
 
         @Input()
-        title!: string; 
+        title: string; 
         //title = '';
         
         count = 0;
