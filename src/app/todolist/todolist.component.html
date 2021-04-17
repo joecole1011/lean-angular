@@ -1,0 +1,10 @@
+<p><b> {{ title | uppercase}} </b></p>
+
+<ul>
+    <li *ngFor="let x of items; let index = index;" >
+        {{x}}
+    </li>
+</ul>
+<b>Task: </b>
+<input [(ngModel)]="newTask" type="text" value="">
+<button (click)=addclick()>Add</button>
