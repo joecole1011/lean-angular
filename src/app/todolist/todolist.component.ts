@@ -18,6 +18,10 @@ export class ToDoListComponent  {
       this.newTask ='';
     }
   }
+
+public deletetask(index) {
+    this.items.splice(index, 1);
+}
   constructor() { }
 
   

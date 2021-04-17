@@ -2,9 +2,12 @@
 
 <ul>
     <li *ngFor="let x of items; let index = index;" >
+        
         {{x}}
+        
+        <input (click)="deletetask(index)" type="button" value="Delete" >
     </li>
 </ul>
 <b>Task: </b>
 <input [(ngModel)]="newTask" type="text" value="">
-<button (click)=addclick()>Add</button>
+<button ngClass="{buttonColor: false}" (click)=addclick()>Add</button>
