@@ -8,6 +8,10 @@ import { FormsModule } from '@angular/forms';
 import { CountingComponent } from './counting/counting.component';
 import { NgforandngifComponent } from './ngforandngif/ngforandngif.component';
 import { Lab4Component } from './lab4/lab4.component';
+import { NavbarComponent } from './home/navbar/navbar.component';
+import { TopBannerComponent } from './home/topbanner/topbanner.component';
+import { CategoryMenuComponent } from './home/categorymenu/categorymenu.component';
+import { SearchBarComponent } from './home/navbar/searchbar/searchbar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { Lab4Component } from './lab4/lab4.component';
     HomeComponent,
     CountingComponent,
     NgforandngifComponent,
-    Lab4Component
+    Lab4Component,
+    NavbarComponent,
+    TopBannerComponent,
+    CategoryMenuComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule, FormsModule
