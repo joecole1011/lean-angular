@@ -14,6 +14,7 @@ import { CategoryMenuComponent } from './home/categorymenu/categorymenu.componen
 import { SearchBarComponent } from './home/navbar/searchbar/searchbar.component';
 import { ToDoListComponent } from './todolist/todolist.component';
 import { Homework3Component } from './homework3/homework3.component';
+import { Lab1 } from './lab1.5/lab1.5.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { Homework3Component } from './homework3/homework3.component';
     CategoryMenuComponent,
     SearchBarComponent,
     ToDoListComponent,
-    Homework3Component
+    Homework3Component,
+    Lab1.5Component
   ],
   imports: [
     BrowserModule, FormsModule
