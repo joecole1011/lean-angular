@@ -13,6 +13,7 @@ import { TopBannerComponent } from './home/topbanner/topbanner.component';
 import { CategoryMenuComponent } from './home/categorymenu/categorymenu.component';
 import { SearchBarComponent } from './home/navbar/searchbar/searchbar.component';
 import { ToDoListComponent } from './todolist/todolist.component';
+import { Homework3Component } from './homework3/homework3.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ToDoListComponent } from './todolist/todolist.component';
     TopBannerComponent,
     CategoryMenuComponent,
     SearchBarComponent,
-    ToDoListComponent
+    ToDoListComponent,
+    Homework3Component
   ],
   imports: [
     BrowserModule, FormsModule
